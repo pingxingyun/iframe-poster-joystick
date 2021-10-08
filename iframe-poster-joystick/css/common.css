@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* colors */
+/* z-index */
+/* ue图的宽度 */
+.panel-body{
+  position: relative
+}
+.joy-container {
+  /* position: absolute;
+  top: 600px; */
+}
+
+.joystick {
+  position: absolute;
+  z-index: 1012;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.joystick .btn {
+  pointer-events: none;
+  position: absolute;
+  font-size: 2.23881rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.joystick .btn.top {
+  width: 7.46269rem;
+  height: 5.59701rem;
+  line-height: 5.59701rem;
+  top: 0rem;
+  left: 5.8209rem;
+}
+
+.joystick .btn.bottom {
+  width: 7.46269rem;
+  height: 5.59701rem;
+  line-height: 5.59701rem;
+  top: 12.68657rem;
+  left: 5.8209rem;
+}
+
+.joystick .btn.left {
+  top: 5.8209rem;
+  left: 0rem;
+  width: 5.8209rem;
+  height: 7.46269rem;
+  line-height: 7.46269rem;
+}
+
+.joystick .btn.right {
+  top: 5.8209rem;
+  left: 13.28358rem;
+  width: 5.8209rem;
+  height: 7.46269rem;
+  line-height: 7.46269rem;
+}
+
+.joystick .center,.center-right {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/joy_stick_top.png");
+  width: 5.52239rem;
+  height: 5.52239rem;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.76119rem;
+  margin-top: -2.76119rem;
+  pointer-events: none;
+}
+
+.joystick .center.left {
+  top: 9.85075rem;
+  left: 2.98507rem;
+}
+
+.joystick .center.right {
+  top: 9.85075rem;
+  left: 16.26866rem;
+}
+
+.joystick .center.top {
+  top: 2.98507rem;
+  left: 9.62687rem;
+}
+
+.joystick .center.bottom {
+  top: 15.8209rem;
+  left: 9.62687rem;
+}
+
+.joystick.left {
+  background-image: url("../img/joy_stick_bottom.png");
+  left: 3.58209rem;
+  bottom: 3.58209rem;
+  width: 19.02985rem;
+  height: 19.02985rem;
+}
+
+.joystick.right {
+  background-image: url("../img/joy_left_bottom.png");
+  right: 3.58209rem;
+  bottom: 3.58209rem;
+  width: 19.02985rem;
+  height: 19.02985rem;
+}
+
+.joystick.keyboard-left {
+  left: 5.8209rem;
+  bottom: 23.13433rem;
+  border-radius: 0.74627rem;
+  padding: 0.37313rem 0;
+}
+
+.joystick.keyboard-right {
+  right: 5.8209rem;
+  bottom: 23.13433rem;
+  border-radius: 0.74627rem;
+  padding: 0.37313rem 0;
+}
+
+.joystick.keyboard-right .mouselock {
+  top: 0.89552rem;
+  left: 0.89552rem;
+  width: 0.59701rem;
+  height: 0.59701rem;
+  border-radius: 0.59701rem;
+  position: absolute;
+}
+
+.joystick.keyboard-right .mouselock.mouselock-lock {
+  background-color: lightgreen;
+}
+
+.joystick.keyboard-right .mouselock.mouselock-unlock {
+  background-color: lightgray;
+}
+
+.joystick.keyboard-mid {
+  width: 30.22388rem;
+  margin-left: -15.11194rem;
+  left: 50%;
+  bottom: 2.23881rem;
+  border-radius: 0.74627rem;
+  padding: 0.37313rem 0;
+}
+/*# sourceMappingURL=common.css.map */
