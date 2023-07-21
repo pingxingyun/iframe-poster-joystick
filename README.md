@@ -1,2 +1,2 @@
 # iframe-poster-joystick
-SR手柄圆盘demo
+Virtual joystick for LarkSR cloudrending webclient
